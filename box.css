@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30,38% ,92% );
+    font-size: 14px;
+    font-family: 'Monserrat','Fraunces';
+    min-height: 100vh;
+    justify-content: center;
+
+    align-items: center;
+}  
+
+.container {
+    margin: 30px auto;
+    padding: 0 30px;
+
+}
+.content{
+    display: grid;
+    background-color: #fff;
+    max-width: 700px;
+    border: radius 15px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content img{
+    max-width: 350px;
+    border-radius:15px 0px 0px 15px;
+    
+    object-fit: cover;
+}
+.content .product {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product h6 {
+    letter-spacing: 3px;
+    font-size: 14px;
+    color: hsl(228,12% ,28% );
+
+}
+.product h1 {
+     font-family: 'fraunces';
+     font-size: 34px;
+     line-height: 1em;
+     color: hsl(212,21% ,14% );
+}
+.product p {
+    font-size: 17px;
+    line-height: 1.5em;
+    color: hsl(228,12% ,28% );
+}
+.product .price {
+    display: flex;
+    align-items: center;
+}
+.product .price h1 {
+    color: hsl(120, 100%, 25%);
+    font-family: Georgia;
+    margin-right: 30px;
+
+}
+.product .price h6 {
+    text-decoration: line-through;
+    color: hsl(0, 0%, 50%);
+}
+button.btn {
+    border: none;
+    background-color: hsl(120, 100%, 25%);
+    color: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color .3s ease;
+
+
+}
+button.btn img {
+    padding-right: 7px;
+
+}
+@media  only screen and(max-width:648px){
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .content img {
+        max-height: 400px;
+        width: 100px;
+        object-fit: cover;
+        border-radius: 15px 15px 0px 0px;
+
+    }
+    button.btn img {
+        display: none;
+    }
+    .content h6 h1 h2 p {
+        padding-bottom: 20px;
+    }
+    
+}
+    src{
+        
+    }

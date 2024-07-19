@@ -1,0 +1,31 @@
+h1.pot{
+    color: blueviolet;
+    border: 22px solid yellow;
+
+}
+
+div.point{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    border: 5px solid blue;
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+
+
+p.typ{
+    background-color: brown;
+    border-radius: 0;
+}
+p.rem{
+    background-color: yellowgreen;
+    border-radius: 3;
+} 
